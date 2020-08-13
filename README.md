@@ -41,7 +41,7 @@ Otherwise, play proceeds to the other player.
 ### Playing with agents
 In this homework, your agent will play against another agent, either created by the TAs, or
 created by another student in the class. For grading, we will use two scenarios:
-      - Single move: your agent will be given in input.txt a board configuration, a color to play,
+     - Single move: your agent will be given in input.txt a board configuration, a color to play,
 and some number of seconds of allowed time to play one move. Your agent should return 
 in output.txt the chosen move(s), before the given play time has expired. Play time is
 measured as total CPU time used by your agent on all CPU threads it may spawn (so,

@@ -41,14 +41,14 @@ Otherwise, play proceeds to the other player.
 ### Playing with agents
 In this homework, your agent will play against another agent, either created by the TAs, or
 created by another student in the class. For grading, we will use two scenarios:
-     - 1) Single move: your agent will be given in input.txt a board configuration, a color to play,
+      - Single move: your agent will be given in input.txt a board configuration, a color to play,
 and some number of seconds of allowed time to play one move. Your agent should return 
 in output.txt the chosen move(s), before the given play time has expired. Play time is
 measured as total CPU time used by your agent on all CPU threads it may spawn (so,
 parallelizing your agent will not get you any free time). Your agent will play 10 single
 moves, each worth one point. If your agent returns an illegal move, a badly formatted
 output.txt, or does not return before its time is up, it will lose the point for that move.
-     - 2) Play against reference agent: your agent will then play 9 full games against a simple
+      - Play against reference agent: your agent will then play 9 full games against a simple
 minimax agent with no alpha-beta pruning, created by the TAs. There will be a limited
 total amount of play time available to your agent for the whole game (e.g., 100 seconds),
 so you should think about how to best use it throughout the game. This total amount of
